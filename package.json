@@ -1,0 +1,22 @@
+{
+  "name": "effectcraft-project-converter",
+  "version": "0.1.0",
+  "description": "Convert projects between EffectCraft (.ecproj) and Adobe After Effects (.aep), both ways",
+  "type": "module",
+  "bin": {
+    "effectcraft-project-converter": "bin/convert.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "test:live": "node --test --test-concurrency=1 test/live/*.test.js",
+    "app": "node app/build.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madeshwaranm/effectcraft-project-converter.git"
+  }
+}

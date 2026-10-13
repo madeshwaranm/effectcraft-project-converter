@@ -1,0 +1,4 @@
+test/out/
+node_modules/
+EffectCraft Auto-Save/
+.DS_Store
